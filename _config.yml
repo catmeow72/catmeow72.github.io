@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Catmeow's Blog
+author: Catmeow
 description: Stuff I wanted to share.
 show_downloads: true
 logo: /favicon.svg
