@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: default
 title: "Useful Notes"
 author: Catmeow72
 permalink: /notes.html
