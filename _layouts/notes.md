@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<small>Last updated: {{ page.date | date: "%-D %B %Y" }}</small>
+<small>Last updated: {{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 <p class="view">by {{ page.author | default: site.author }}</p>
 
