@@ -22,3 +22,6 @@
 #markdown-toc > li {
     display: block;
 }
+#markdown-toc *:hover {
+    font-weight: revert;
+}
