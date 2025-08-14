@@ -6,3 +6,19 @@
 .title {
     font-size: 32px;
 }
+
+#markdown-toc {
+    display: block;
+    padding: 8px;
+    width: max-content;
+    background-color: rgba(0.5, 0.5, 0.5, 20%);
+    border: 1px solid rgba(0.5, 0.5, 0.5, 75%);
+    border-radius: 3px;
+    color: initial;
+}
+#markdown-toc::before {
+    content: "Table of Contents";
+}
+#markdown-toc > li {
+    display: block;
+}
