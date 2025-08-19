@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+.logo {
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 1;
+}
+
 .title {
     font-size: 32px;
 }
