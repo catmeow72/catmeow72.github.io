@@ -22,6 +22,8 @@ sudo rm -rfv /Library/Caches/com.apple.iconservices.store
 sudo find /private/var/folders/ \( -name com.apple.dock.iconcache -or -name com.apple.iconservices \) -exec rm -rfv {} \; ; sleep 3;sudo touch /Applications/* ; killall Dock; killall Finder
 ```
 The errors returned are normal and don't affect anything.
+
+Also note that this will restart the Dock and Finder.
 ### Flush DNS cache
 From memory:
 ```sh
