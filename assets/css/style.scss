@@ -34,3 +34,12 @@
 #markdown-toc *:hover {
     font-weight: revert;
 }
+.permalink {
+    padding-left: 0.25em;
+    width: max-content;
+    display: inline-block;
+    opacity: 0;
+}
+*:hover > .permalink, .permalink:hover {
+    opacity: revert;
+}
