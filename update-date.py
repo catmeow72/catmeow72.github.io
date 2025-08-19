@@ -39,7 +39,7 @@ with open(notes_path, "rt") as f:
             if line.strip() == "---":
                 before_frontmatter = False
                 is_frontmatter = True
-		found_frontmatter = True
+                found_frontmatter = True
         elif is_frontmatter:
             is_date = line.strip().startswith("date:")
             if line.strip() == "---":
