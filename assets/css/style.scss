@@ -10,6 +10,7 @@
 #markdown-toc {
     display: block;
     padding: 8px;
+    padding-inline-start: calc(8px + 2ch);
     width: max-content;
     background-color: rgba(0.5, 0.5, 0.5, 20%);
     border: 1px solid rgba(0.5, 0.5, 0.5, 75%);
@@ -18,9 +19,11 @@
 }
 #markdown-toc::before {
     content: "Table of Contents";
+    font-weight: bold;
+    margin-inline-start: -2ch;
 }
-#markdown-toc > li {
-    display: block;
+#markdown-toc li {
+    list-style-type: number;
 }
 #markdown-toc *:hover {
     font-weight: revert;
