@@ -1,0 +1,2 @@
+./update-date.py _config.yml
+git add _config.yml
