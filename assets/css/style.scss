@@ -43,3 +43,24 @@
 *:hover > .permalink, .permalink:hover {
     opacity: revert;
 }
+
+.music li {
+  display: flex;
+  flex-direction: column;
+  margin-top: -1em;
+} 
+.music li::before {
+  display: inline;
+  content: "-";
+  position: relative;
+  right: 3.5ch;
+  top: 1.5em;
+}
+.music-file {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.music-file > audio {
+  flex-grow: 1;
+}
