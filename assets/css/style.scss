@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@use "jekyll-theme-minimal";
 
 .logo {
     width: 10em;
