@@ -1,0 +1,270 @@
+{
+    "tracks": [
+      {
+        "title": "Memories Returned",
+        "tracknumber": "074",
+        "games": [
+          "Pokemon Mystery Dungeon - Explorers of the Sky"
+        ],
+        "type": "Meow",
+        "path": "/static/Meow/074. Memories Returned (Katie's Meow).ogg"
+      },
+      {
+        "title": "Ending",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White"
+        ],
+        "type": "Meow",
+        "path": "/static/Meow/BWEndingMeow.ogg"
+      },
+      {
+        "title": "Kanransya",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White",
+          "Pokemon Black 2",
+          "Pokemon White 2"
+        ],
+        "type": "Meow",
+        "path": "/static/Meow/KanransyaMeow.ogg"
+      },
+      {
+        "title": "N's Castle Bridge",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White"
+        ],
+        "type": "Meow",
+        "path": "/static/Meow/NCastleBridge.ogg"
+      },
+      {
+        "title": "N's Castle Bridge",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White"
+        ],
+        "type": "NES",
+        "path": "/static/NES/SEQ_BGM_N_CASTLE_BRIDGE.ogg"
+      },
+      {
+        "title": "Castelia City",
+        "games": [
+            "Pokemon Black",
+            "Pokemon White",
+            "Pokemon Black 2",
+            "Pokemon White 2"
+        ],
+        "type": "NES",
+        "path": "/static/NES/SEQ_BGM_C_03.ogg"
+      },
+      {
+        "title": "Team Rocket",
+        "type": "Meow",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White"
+        ],
+        "path": "/static/Meow/SEQ_BGM_E_SOUND_DESIGNER_KATIES_MEOW.ogg"
+      },
+      {
+        "title": "Gym (Winning)",
+        "type": "Meow",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White",
+          "Pokemon Black 2",
+          "Pokemon White 2"
+        ],
+        "path": "/static/Meow/WinningGymWithLoop.ogg"
+      },
+      {
+        "title": "Winter City",
+        "type": "Meow",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White",
+          "Pokemon Black 2",
+          "Pokemon White 2"
+        ],
+        "path": "/static/Meow/SEQ_BGM_C_07.ogg"
+      },
+      {
+        "title": "Vs. Single Pokemon (Johto)",
+        "type": "Meow",
+        "games": {
+          "Pokemon HeartGold",
+          "Pokemon SoulSilver"
+        },
+        "path": "/static/Meow/SEQ_GS_VS_NORAPOKE.ogg"
+      },
+      {
+        "title": "Fast Minigame",
+        "type": "Meow",
+        "games": {
+          "Pokemon HeartGold",
+          "Pokemon SoulSilver"
+        },
+        "path": "/static/Meow/SEQ_GS_PT_GAMEF_KATIEMAU.ogg"
+      },
+      {
+        "title": "The Sky Runner",
+        "type": "Meow",
+        "tracknumber": "070",
+        "games": [
+          "Earthbound",
+          "Mother 2"
+        ],
+        "path": "/static/Meow/mo2-070.ogg"
+      },
+      {
+        "title": "Beware of the Forest's Mushrooms",
+        "type": "Meow",
+        "tracknumber": "128",
+        "games": [
+          "Super Mario RPG"
+        ],
+        "path": "/static/Meow/smr-128.ogg"
+      },
+      {
+        "title": "Fight Agains Culex",
+        "type": "Meow",
+        "tracknumer": "207",
+        "games": [
+          "Super Mario RPG"
+        ],
+        "path": "/static/Meow/smr-207.ogg"
+      },
+      {
+        "title": "Victory Over Culex",
+        "type": "Meow",
+        "tracknumber": "208",
+        "games": [
+          "Super Mario RPG"
+        ],
+        "path": "/static/Meow/smr-208.ogg"
+      },
+      {
+        "title": "Flower Garden",
+        "type": "Meow",
+        "tracknumber": "07",
+        "games": [
+          "Yoshi's Island"
+        ],
+        "path": "/static/Meow/yi-07.ogg"
+      },
+      {
+        "title": "Underground",
+        "type": "Meow",
+        "tracknumber": "09",
+        "games": [
+          "Yoshi's Island"
+        ],
+        "path": "/static/Meow/yi-09.ogg"
+      },
+      {
+        "title": "Athletic",
+        "type": "Meow",
+        "tracknumr": "13",
+        "games": [
+          "Yoshi's Island"
+        ],
+        "path": "/static/Meow/yi-13a.ogg"
+      },
+      {
+        "title": "Overworld",
+        "type": "Meow",
+        "tracknumber": "14",
+        "games": [
+          "Yoshi's Island"
+        ],
+        "path": "/static/Meow/yi-14.ogg"
+      }
+    ],
+    "games": [
+      {
+        "title": "Yoshi's Island",
+        "console": "SNES"
+      },
+      {
+        "title": "Super Mario RPG",
+        "console": "SNES"
+      },
+      {
+        "title": "Mother 2",
+        "aliases": [
+          "Earthbound"
+        ],
+        "console": "SNES"
+      },
+      {
+        "title": "Pokemon Black",
+        "console": "DS"
+      },
+      {
+        "title": "Pokemon White",
+        "console": "DS"
+      },
+      {
+        "title": "Pokemon Black 2",
+        "console": "DS"
+      },
+      {
+        "title": "Pokemon White 2",
+        "console": "DS"
+      }
+    ],
+    "game_groups": [
+      {
+        "title": "Pokemon",
+        "games": [
+          "Pokemon Mystery Dungeon - Explorers of the Sky"
+        ],
+        "inherits": [
+          "Mainline Pokemon (DS)"
+        ]
+      },
+      {
+        "title": "Pokemon Mystery Dungeon",
+        "games": [
+          "Pokemon Mystery Dungeon - Explorers of the Sky"
+        ]
+      },
+      {
+        "title": "Mainline Pokemon (DS)",
+        "inherits": [
+          "Pokemon Gen 4",
+          "Pokemon Gen 5"
+        ]
+      },
+      {
+        "title": "Pokemon Gen 4",
+        "games": [
+          "Pokemon HeartGold",
+          "Pokemon SoulSilver"
+        ]
+      },
+      {
+        "title": "Pokemon Gen 5",
+        "games": [],
+        "inherits": [
+          "Pokemon Black/White",
+          "Pokemon Black/White 2"
+        ]
+      },
+      {
+        "title": "Pokemon Black/White",
+        "games": [
+          "Pokemon Black",
+          "Pokemon White"
+        ]
+      },
+      {
+        "title": "Pokemon Black/White 2",
+        "games": [
+          "Pokemon Black 2",
+          "Pokemon White 2"
+        ]
+      }
+    ]
+}

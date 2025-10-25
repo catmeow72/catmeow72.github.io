@@ -2,3 +2,4 @@
 <p><a href="/notes.html">Notes</a></p>
 <p><a href="/posts">Posts</a></p>
 <p><a href="/links">Links</a></p>
+<p><a href="/music">Music</a></p>
