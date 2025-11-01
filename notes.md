@@ -22,6 +22,7 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
     - bluez-utils
     - dbus
     - dbus-utils
+    <br/>
     This can be done by entering the following commands:
     ```sh
     opkg update
@@ -80,7 +81,7 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
     dbus-send --system --type=method_call --dest=org.bluez /org/bluez/hci0/dev_XX_XX_XX_XX_XX_XX org.bluez.Network1.Connect string:'NAP'
     ```
     Where the XX is replaced with the digits of your phone's MAC address you found when pairing.
-3. If you hvaen't yet, set up your router to route your internet traffic through the phone by typing these commands:
+3. If you haven't yet, set up your router to route your internet traffic through the phone by typing these commands:
     ```sh
     uci set network.wan=interface
     uci set network.wan.proto=dhcp
