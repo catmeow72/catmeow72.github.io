@@ -4,6 +4,10 @@ title: Links
 date: 2025-08-19 14:14:36 -0700
 ---
 
+## Social Nedia
+ - [YouTube](https://youtube.com/@regularlykatie)
+ - [Bluesky](https://bsky.app/profile/katiemau.complecwaft.com)
+
 ## Projects
 ### PC
  - [Looper](https://complecwaft.com/catmeow/looper)
