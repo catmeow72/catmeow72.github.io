@@ -16,11 +16,28 @@ First, set up OpenWRT as usual and make sure you have a working USB port and int
 Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-netgear-a6210/126000/8)
 
 ## Thethering from phone to OpenWRT
-1. Enable bluetooth by changing AutoEnable in /etc/bluetooth/main.conf to true
+1. Make sure the following packages are installed.
+    - kmod-input-uinput
+    - bluez-daemon
+    - bluez-utils
+    - dbus
+    - dbus-utils
+    This can be done by entering the following commands:
+    ```sh
+    opkg update
+    opkg install kmod-input-uinput bluez-daemon bluez-utils dbus dbus-utils
+    ```
+    <div class="command-desc">
+        The first command (`opkg update`) updates the package lists so that packages can be found. This can be skipped if the package lists have been updated since last boot.
+        The second command (`opkg install`) installs the packages.
+    </div>
+
+    
+2. Enable bluetooth by changing AutoEnable in /etc/bluetooth/main.conf to true
     ```
     AutoEnable=true
     ```
-2. Modify /etc/dbus-1/system.d/bluetooth.conf to add to the root policy block:
+3. Modify /etc/dbus-1/system.d/bluetooth.conf to add to the root policy block:
     ```xml
       <allow send_type="method_call" />
       <allow send_type="method_return" />
@@ -43,7 +60,7 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
         <allow send_type="method_return"/>
       </policy>
     ```
-3. Use bluetoothctl to pair and connect to the phone.
+4. Use bluetoothctl to pair and connect to the phone.
     1. Start by logging in via SSH
     2. Run `bluetoothctl` to enter the bluetoothctl command line
     3. Wait for your phone to appear
