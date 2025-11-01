@@ -28,8 +28,8 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
     opkg install kmod-input-uinput bluez-daemon bluez-utils dbus dbus-utils
     ```
     <div class="command-desc">
-        The first command (`opkg update`) updates the package lists so that packages can be found. This can be skipped if the package lists have been updated since last boot.
-        The second command (`opkg install`) installs the packages.
+        The first command (<span class="code-inline">opkg update</span>) updates the package lists so that packages can be found. This can be skipped if the package lists have been updated since last boot.<br/>
+        The second command (<span class="code-inline">opkg install</span>) installs the packages.
     </div>
 
     
@@ -66,12 +66,13 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
     3. Wait for your phone to appear
     4. Type `pair XX:XX:XX:XX:XX:XX` where the X's are replaced with your phone's MAC address shown along with your phone name
         <div class="tip">
-            You can use tab completion by pressing <span class="key">Tab</span> while typing the address.
-            If there are no other possible choices up to a certain point, this will complete up to that point,
-            and if there's no other possible choices at all, you will have the complete MAC address.
+            You can use tab completion by pressing <span class="key">Tab</span> while typing the address.<br/>
+            If there are no other possible choices up to a certain point, this will complete up to that point,<br/>
+            and if there's no other possible choices at all, you will have the complete MAC address.<br/>
             If there is ambiguity, press <span class="key">Tab</span> again to see the possible choices.
         </div>
     5. Type `trust XX:XX:XX:XX:XX:XX` where the X's are replaced with the same MAC address.
+
 ### Steps to connect once phone is paired
 1. If not logged into SSH on your router, log in.
 2. Connect via Bluetooth with the following command:
@@ -88,8 +89,8 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
     ifup wan
     ```
     <div class="command-desc">
-        This creates (`network.wan=interface`) and sets up the WAN network to use the phone's bluetooth connection (`network.wan.ifname='bnep0'`) via DHCP (`network.wan.proto=dhcp`).
-        It then commits the changes (`uci commit`), and triggers the WAN interface to reload (`ifup wan`).
+        This creates (<span class="code-inline">network.wan=interface</span>) and sets up the WAN network to use the phone's bluetooth connection (<span class="code-inline">network.wan.ifname='bnep0'</span>) via DHCP (<span class="code-inline">network.wan.proto=dhcp</span>).<br/>
+        It then commits the changes (<span class="code-inline">uci commit</span>), and triggers the WAN interface to reload (<span class="code-inline">ifup wan</span>).
     </div>
 Source: [OpenWRT docs](https://openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether) (Date: <span class="date">2025-10-25T19:54:33Z</span>; [Archive](https://web.archive.org/web/20250706143356/openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether), <span class="date">2025-07-06T13:33:56Z</span>)
 

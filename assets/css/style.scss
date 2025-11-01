@@ -133,13 +133,51 @@
   padding: 0.25em;
   color: hsl(0deg, 0%, 25%);
 }
+.command-desc, .tip {
+  border: 1px solid #000;
+  border-radius: 0.75em;
+  --padding: 0.25em;
+  padding: var(--padding);
+  padding-top: 0;
+  overflow: hidden;
+}
 .command-desc::before {
   content: "What this does";
-  font-size: 1.25em;
-  display: block;
 }
 .tip::before {
   content: "Tip!";
+}
+.tip::before, .command-desc::before {
   font-size: 1.25em;
   display: block;
+  margin-inline: calc(0px - var(--padding));
+/*  margin-top: -0.25em;*/
+  padding-inline: var(--padding);
+  margin-bottom: var(--padding);
+  border-bottom: 1px solid #000;
+  background-color: hsla(0deg, 0%, 90%, 50%);
+  width: 100%;
+}
+.key {
+  border: 1px solid #000;
+  border-radius: 0.25em;
+  background-color: #ccc;
+  color: #000;
+  padding-inline: 0.25em;
+  padding-block: 0;
+}
+.code-inline, code.highlighter-rouge, pre.highlight {
+  background-color: #f8f8f8;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  overflow: auto;
+}
+
+.code-inline, code.highlighter-rouge {
+  display: inline-flex;
+  padding-inline: 0.25em;
+  padding-block: 0.125em;
+  align-items: center;
+  line-height: 1em;
 }
