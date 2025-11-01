@@ -74,7 +74,7 @@ Source: [OpenWRT forum post](https://forum.openwrt.org/t/openwrt-not-support-net
         This creates (`network.wan=interface`) and sets up the WAN network to use the phone's bluetooth connection (`network.wan.ifname='bnep0'`) via DHCP (`network.wan.proto=dhcp`).
         It then commits the changes (`uci commit`), and triggers the WAN interface to reload (`ifup wan`).
     </div>
-Source: [OpenWRT docs](openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether) (Date: <span class="date">2025-10-25T19:54:33Z</span>; [Archive](https://web.archive.org/web/20250706143356/openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether), <span class="date">2025-07-06T13:33:56Z</span>)
+Source: [OpenWRT docs](https://openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether) (Date: <span class="date">2025-10-25T19:54:33Z</span>; [Archive](https://web.archive.org/web/20250706143356/openwrt.org/docs/guide-user/hardware/bluetooth/bluetooth.tether), <span class="date">2025-07-06T13:33:56Z</span>)
 
 ## macOS
 ### Clearing Icon Cache
