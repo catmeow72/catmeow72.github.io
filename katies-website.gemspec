@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.platform = Gem::Platform::RUBY
   s.add_runtime_dependency "jekyll", "~> 4.3.3"
-  s.add_runtime_dependency "jekyll-seo-tag", "~> 2.0"
+  s.add_runtime_dependency "jekyll-seo-tag", "~> 2.8.0"
   s.add_runtime_dependency "csv", ">= 3.3"
   s.add_development_dependency "html-proofer", "~> 5.0"
   s.add_development_dependency "rubocop-github", "~> 0.26.0"
